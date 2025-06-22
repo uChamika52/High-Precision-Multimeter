@@ -1,0 +1,14 @@
+## ⚙️ Calibration Process
+
+To ensure accurate measurement, we calibrated the system by **measuring the output voltage of the Op-Amp** and the **current flowing through the entire circuit** using two digital multimeters. The steps were as follows:
+
+1. **Data Collection**:
+   We recorded multiple readings of the **Op-Amp output voltage** and the **total circuit current** using the multimeters.
+
+2. **Python-Based Mapping**:
+   The collected data was processed using the Python script [`Function Generator.py`](./callib/Function Generator.py), located in the `callib` folder. This script was used to **generate mapping equations** that relate the microcontroller readings to the actual measured values.
+
+3. **Voltage Divider Note**:
+   Since the voltage was sensed through a **voltage divider**, the raw readings were already close to the real values. Still, we applied the same calibration process to minimize minor deviations.
+
+This approach helped us improve the system’s accuracy in both voltage and current measurements.
