@@ -29,7 +29,7 @@ This project is a **Ultra Precision Voltage and Current Measuring Device** devel
 ```
 ├── /src              # Main source code
 ├── /docs             # Circuit diagrams, design documents
-├── /ui               # User Interface assets
+├── /gui               # User Interface assets
 ├── README.md
 ```
 
