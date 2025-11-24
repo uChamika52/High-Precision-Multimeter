@@ -1,20 +1,22 @@
 # Ultra Precision Voltage and Current Measuring Device using STM32
 
-This project is a **Ultra Precision Voltage and Current Measuring Device** developed using an **STM32 Microcontroller**. It features a **Graphical User Interface** to display real-time readings, enabling efficient monitoring of electrical parameters.
+This project is an **Ultra Precision Voltage and Current Measuring Device** built around **STM32** Microcontroller. It now includes a complete **PCB design**, enabling a more stable and reliable measurement system alongside a sleek graphical interface for real-time monitoring. 
 
 ## 🔧 Features
 
-* Accurate Voltage and Current Measurement
-* Real-time data display via user-friendly graphical interface
-* STM32 Microcontroller-based implementation
-* Modular and extendable design for future improvements
-
+* High-accuracy voltage & current measurement
+* Real-time GUI with clear and responsive display
+* STM32-based embedded system (HAL + STM32CubeIDE)
+* Dedicated PCB for analog front-end + MCU integration
+* Modular architecture ready for upgrades
+  
 ## 📦 Technologies Used
 
-* STM32 Microcontroller (STM32CubeIDE, HAL Drivers)
+* STM32 (HAL Drivers, STM32CubeIDE)
 * Embedded C
-* Supporting Analog Circuitry
-
+* Analog circuitry + precision measurement components
+* Altium Designer
+  
 ## 👥 Team Members
 
 * **G.A.S.U. Perera** (Sasindu)
@@ -27,17 +29,20 @@ This project is a **Ultra Precision Voltage and Current Measuring Device** devel
 ## 📁 Repository Structure
 
 ```
-├── /src              # Main source code
-├── /docs             # Circuit diagrams, design documents
-├── /gui               # User Interface assets
-├── /callib            # Callibration code
+
+├── /src               # Firmware source code
+├── /docs              # Design docs, circuit explanations
+├── /gui               # UI assets and display-related files
+├── /callib            # Calibration code
+├── /pcb               # PCB design (schematics, 2D & 3D models)
 ├── README.md
+
 ```
 
 ## 🚀 Getting Started
 
-1. Clone the repository
-2. Open with STM32CubeIDE
-3. Build and flash the project to your STM32 board
-4. Connect the interface display
-5. Power up and start measuring!
+1. Clone the repo
+2. Open the project in STM32CubeIDE
+3. Build and flash to your STM32 board
+4. Connect the display module
+5. Power up, run calibration, and start monitoring
